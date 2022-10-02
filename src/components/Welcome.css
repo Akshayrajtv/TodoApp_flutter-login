@@ -1,0 +1,70 @@
+.welcome {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    position: relative;
+    overflow: hidden;
+}
+img{
+    
+    margin-left: 700px;
+    margin-top: 120px;
+    height: 400px;
+    opacity: 0.4;
+}
+.welcome h1 {
+    font-weight: normal;
+    font-size: 100px;
+    left: 156px;
+    top: 50px;
+    position: absolute;
+    color:burlywood;
+}
+.login_register_container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 50px;
+    left: 150px;
+    top: 200px;
+    background: #ffffff;
+    border: 1px none;
+    border-radius: 8px;
+    
+}
+
+.login_register_container input {
+    height: 30px;
+    width: 80%;
+    border: 1px solid rgb(84, 76, 82);
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 25px;
+    padding: 10px;
+   
+}
+
+.login_register_container button {
+    padding: 5px 20px;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#button1 {
+    background-image: linear-gradient(to right, #fffbd5, #b20a2c);
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "Changa One";
+    font-weight: normal;
+    color: white;
+}
+
+#button2 {
+    background: none;
+    margin-top: 10px;
+}
+
